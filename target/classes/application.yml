@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: mssql
+
+---
+spring:
+  config:
+    activate:
+      on-profile: mssql
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;instanceName=SQLEXPRESS;databaseName=TESTDB;encrypt=true;trustServerCertificate=true
+    username: app_user
+    password: AppUser@12345
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+        format_sql: true
+  sql:
+    init:
+      mode: never

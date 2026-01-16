@@ -1,6 +1,6 @@
 {
   "info": {
-    "name": "InterviewAssignment",
+    "name": "SpringBootClient",
     "_postman_id": "b8f3d7e0-0000-0000-0000-000000000001",
     "description": "Spring Boot Interview Assignment APIs",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"

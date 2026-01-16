@@ -1,14 +1,2 @@
-com\example\interviewassignment\api\controller\ExternalController.class
-com\example\interviewassignment\api\dto\CustomerUpdateRequest.class
-com\example\interviewassignment\api\controller\HealthController.class
-com\example\interviewassignment\api\controller\CustomerController.class
-com\example\interviewassignment\config\logging\RequestResponseLoggingFilter.class
-com\example\interviewassignment\api\error\GlobalExceptionHandler.class
-com\example\interviewassignment\api\dto\CustomerCreateRequest.class
-com\example\interviewassignment\integration\ExternalPostService.class
-com\example\interviewassignment\InterviewAssignmentApplication.class
-com\example\interviewassignment\domain\repository\CustomerRepository.class
-com\example\interviewassignment\common\exception\NotFoundException.class
-com\example\interviewassignment\domain\entity\Customer.class
-com\example\interviewassignment\api\dto\CustomerResponse.class
-com\example\interviewassignment\domain\service\CustomerService.class
+com\example\springbootclient\api\controller\CustomerController.class
+com\example\springbootclient\SpringBootClientApplication.class
